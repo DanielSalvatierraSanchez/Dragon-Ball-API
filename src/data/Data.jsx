@@ -20,7 +20,6 @@ const Data = () => {
                 <img src='/assets/web.webp' alt='Portfolio' />
             </a>
         </div>
-        
     );
 };
 
