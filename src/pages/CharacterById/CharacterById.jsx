@@ -1,7 +1,7 @@
 import "./CharacterById.css";
 import { Link, useParams } from "react-router-dom";
 import React, { useEffect, useState } from "react";
-import Loader from "../Loader/Loader";
+import Loader from "../../components/Loader/Loader";
 
 const CharacterById = () => {
     const { id } = useParams();

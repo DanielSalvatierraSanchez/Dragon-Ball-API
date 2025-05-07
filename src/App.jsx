@@ -2,11 +2,11 @@ import "./App.css";
 import React from "react";
 import Header from "./components/Header/Header";
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/pages/Home/Home";
-import Characters from "./components/pages/Characters/Characters";
-import CharacterById from "./components/CharacterById/CharacterById";
-import NotFound from "./components/pages/404/404";
-import Transformations from "./components/Transformations/Transformations";
+import Home from "./pages/Home/Home";
+import Characters from "./pages/Characters/Characters";
+import CharacterById from "./pages/CharacterById/CharacterById";
+import NotFound from "./pages/404/404";
+import Transformations from "./pages/Transformations/Transformations";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {

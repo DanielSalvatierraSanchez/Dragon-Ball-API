@@ -1,8 +1,8 @@
 import "./Characters.css";
 import React, { useEffect, useState } from "react";
-import Loader from "../../Loader/Loader";
-import CharacterCard from "../../CharacterCard/CharacterCard";
-import Pagination from "../../Pagination/Pagination";
+import Loader from "../../components/Loader/Loader";
+import CharacterCard from "../../components/CharacterCard/CharacterCard";
+import Pagination from "../../components/Pagination/Pagination";
 
 const Characters = () => {
     const [characters, setCharacters] = useState([]);
@@ -23,7 +23,7 @@ const Characters = () => {
     }, [page]);
 
     return (
-        <div className="characters-container">
+        <div className='characters-container'>
             <div className='characters-cards'>
                 {loading && <Loader />}
                 {characters.map((character) => (

@@ -1,5 +1,5 @@
 import "./Transformations.css";
-import Loader from "../Loader/Loader";
+import Loader from "../../components/Loader/Loader";
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
